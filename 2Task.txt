@@ -1,0 +1,30 @@
+1-Justify Content - 
+The justify-content property in CSS is used to describe the alignment of the flexible box container. It contains the space between and around content items along the main axis of a flex container which is distributed in a browser.
+Syntax:
+justify-content: flex-start|flex-end|center|space-between|
+                 space-around|space-evenly|initial|inherit;
+
+
+2-Align Item -
+The align-items property is used to set the alignment of items inside the flexible container or in the given window. It aligns the Flex Items across the axis. 
+Syntax:
+align-items: normal|start|end|self-start|self-end
+    |baseline, first baseline, last baseline|stretch
+    |center|flex-start|flex-end|baseline|safe|unsafe
+    |initial|inherit;
+
+
+3-Gap -
+The gap property of CSS is used to set the spacing also caller gutter between the rows and columns. As like column-gap and row-gap using separately both so that one can use simply gap property that can given column as well as row gap.
+Syntax:
+gap: <row-gap> <column-gap>
+
+4-Flex-direction -
+The flex-direction property is sub-property of flexible box layout module. It established the main axis of the flexible item. the main axis of the flex item is the primary axis. It’s not necessarily horizontal all the time it basically depends on the flex-direction property. 
+Syntax:  
+flex-direction: row|row-reverse|column|column-reverse;
+
+5-flex-wrap - 
+The CSS flex-wrap property is used to specify whether flex items are forced into a single line or wrapped onto multiple lines. The flex-wrap property allows enabling the control direction in which lines are stacked. It is used to designate a single line or multi-line format to flex items inside the flex container.
+Syntax:  
+flex-wrap: nowrap|wrap|wrap-reverse|initial;
